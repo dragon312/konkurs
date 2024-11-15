@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oszczędzanie energii</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="css/img/logo-small.png" type="image/x-icon">
+    <style>
+        @keyframes fall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            100% { transform: translateY(320vh) rotate(360deg); opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="leaf" style="left: 1%; animation-delay: 0s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 1,5%; animation-delay: 1s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 2%; animation-delay: 2s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 3%; animation-delay: 3s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 4%; animation-delay: 4s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 96%; animation-delay: 5s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 95%; animation-delay: 6s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 97%; animation-delay: 7s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 96%; animation-delay: 8s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 97%; animation-delay: 9s;"><img src="css/img/leaf.png"></div>
+    
+
+    <header>
+        <div class=logo-header>
+            <img src=css/img/logo-small.png alt=Logo>
+        </div>
+        
+        <div class=text-header>
+            <a class="Site-topics-text-header">Oszczędzanie energii</a>
+        </div>
+   </header>   
+
+
+    <div class="Left-Menu">
+        
+        <a href=index.html class=urls > Nasze Otoczenie </a> <br>
+        <a href='#' class=urls style="color:rgb(226, 223, 43)"> <b>[Oszczędzanie energii]</b> </a> <br>
+        <a href=oxygen-monitor.html class=urls > Jakość powietrza </a> <br>
+        <a href=recycling-musor.html class=urls > Recykling Odpadów </a> <br>
+        <a href=eco-type-transport.html class=urls > Ekologiczne Typy Transportu </a> <br>
+        <a href=eco-system-nature.html class=urls > Różnorodność Flory i Fauny </a> <br>
+    </div>
+    
+
+    <img class="Arrow-up" id="arrow_up" src="css/img/Arrow_up.png" alt="Scroll to top">
+
+    <section class="block block0">
+        <a class="block0-text-Header-thema">Oszczędzanie energii</a>
+    </section>
+
+    <section class="block block1">
+        <a class="text-in-block">Ekonomia energii to dziedzina zajmująca się analizą, jak efektywnie wykorzystywać zasoby
+            energetyczne, aby osiągnąć maksymalne korzyści przy minimalnych kosztach i negatywnych skutkach
+            dla środowiska. Obejmuje optymalizację zużycia energii w przemyśle, budynkach, transporcie i innych
+            sektorach gospodarki, często przy zastosowaniu nowoczesnych technologii i metod.</a>
+    </section>
+
+    <section class="block block2">
+        <br>
+        <br>
+        <a class="text-thema-in-block">Jak można oszczędzać energię?</a><br>
+    <div class="box">
+        <ul>
+            <li class="text-in-punktor">Poprawa efektywności energetycznej – to na przykład modernizacja budynków i urządzeń, żeby zużywały mniej energii.</li>
+            <li class="text-in-punktor">Wykorzystanie odnawialnych źródeł energii – jak energia słoneczna czy wiatr.</li>
+            <li class="text-in-punktor">Racjonalne zużycie – czyli zmniejszanie strat energii, na przykład w systemach grzewczych.</li>
+            <li class="text-in-punktor">Zarządzanie energią – używanie inteligentnych systemów, które monitorują i optymalizują zużycie energii.</li>
+            <li class="text-in-punktor">Edukacja społeczna – promowanie oszczędzania energii i ekologicznego podejścia.</li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="block block3">
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="text-thema-in-block">Co się dzieje, jeśli nie dbamy o oszczędzanie energii?</a><br>
+    <div class="box2">    
+        <ul>
+            <li class="text-in-punktor">wyższe koszty, co oznacza droższe rachunki dla ludzi i firm,</li>
+            <li class="text-in-punktor">większe zużycia paliw kopalnych, które mogą się wyczerpać,</li>
+            <li class="text-in-punktor">większe emisje CO₂ i innych zanieczyszczeń, co przyczynia się do zmian klimatu,</li>
+            <li class="text-in-punktor">zwiększonego ryzyka kryzysów energetycznych, kiedy brakuje energii.</li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="block block4">
+        <br> 
+        <br> 
+        <br> 
+        <br>
+        <a class="block4-text-sHeader-thema">Kalkulator wyprodukowanej energii</a>
+        <div class="calculator">
+            <label for="power">Moc urządzenia (w watach):</label>
+            <input type="number" id="power" placeholder="Wprowadź moc w W"><br>
+
+            <label for="time">Czas pracy (w godzinach):</label>
+            <input type="number" id="time" placeholder="Wprowadź czas w h"><br>
+
+            <label for="efficiency">Efektywność urządzenia (w %):</label>
+            <input type="number" id="efficiency" placeholder="Wprowadź efektywność w %"><br><br>
+
+            <button onclick="calculateEnergy()">Oblicz energię</button>
+
+            <div id="result" class="result">Wynik: <span id="energy-output" style="text-shadow: 3px 2px 5px rgb(0, 180, 193);">0</span> Wh</div>
+        </div>
+    </section>
+</div> 
+    <script src="js/main.js"></script>
+</body>
+</html>

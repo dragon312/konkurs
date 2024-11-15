@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recykling Odpadów</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="css/img/recycling-icon.png" type="image/x-icon">
+    <style>
+        @keyframes fall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            100% { transform: translateY(230vh) rotate(360deg); opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="leaf" style="left: 1%; animation-delay: 0s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 1,5%; animation-delay: 1s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 2%; animation-delay: 2s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 3%; animation-delay: 3s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 4%; animation-delay: 4s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 96%; animation-delay: 5s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 95%; animation-delay: 6s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 97%; animation-delay: 7s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 96%; animation-delay: 8s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 97%; animation-delay: 9s;"><img src="css/img/leaf.png"></div>
+
+    <header>
+        <div class=logo-header>
+            <img src=css/img/logo-small.png alt=Logo>
+        </div>
+        
+        <div class=text-header>
+            <a class="Site-topics-text-header">Recykling Odpadów</a>
+        </div>
+    </header> 
+
+    <div class="Left-Menu">
+        
+        <a href=index.html class=urls > Nasze Otoczenie </a> <br>
+        <a href=eco-energy.html class=urls > Oszczędzanie energii </a> <br>
+        <a href=oxygen-monitor.html class=urls > Jakość powietrza </a> <br>
+        <a href='#' class=urls style="color:rgb(226, 223, 43)"> <b>[Recykling Odpadów]</b> </a> <br>
+        <a href=eco-type-transport.html class=urls > Ekologiczne Typy Transportu </a> <br>
+        <a href=eco-system-nature.html class=urls > Różnorodność Flory i Fauny </a> <br>
+    </div>
+    
+
+    <img class="Arrow-up" id="arrow_up" src="css/img/Arrow_up.png" alt="Scroll to top">
+
+    <section class="block block0">
+        <a class="block0-text-Header-thema">Recykling i Ochrona Środowiska</a>
+    </section>
+
+    <section class="block block1">
+        <a class="text-in-block">
+            Segregacja i recykling odpadów to procesy mające na celu zmniejszenie ilości śmieci trafiających na
+            wysypiska oraz ponowne wykorzystanie surowców. Segregacja polega na oddzielaniu odpadów według
+            ich rodzaju (np. plastik, papier, szkło, bioodpady), co ułatwia ich recykling – przetwarzanie i tworzenie
+            nowych produktów z odzyskanych surowców.    
+        </a>
+    </section>
+    
+    <section class="block block10">
+        <a class="text-thema-in-block">Sortowanie Odpadów</a> <br>
+        <div id="game-container">
+            <p class="text-in-block">Przeciągnij odpady do odpowiednich koszy! | Wygląda na to, że ktoś rozrzucił śmieci...</p>
+            
+            <div class="bins">
+                <div class="bin" id="paper-bin"><img src="css/img/garbage-paper-bin-100.png"></div>
+                <div class="bin" id="plastic-bin"><img src="css/img/garbage-mixed-bin-100.png"></div>
+                <div class="bin" id="glass-bin"><img src="css/img/garbage-glass-bin-100.png"></div>
+                <div class="bin" id="metal-bin"><img src="css/img/garbage-metal-bin-100.png"></div>
+                <div class="bin" id="bio-bin"><img src="css/img/garbage-bio-bin-100.png"></div>
+            </div>
+                <div class="waste-scroll-container">
+                    <div class="waste-items">
+                        <img src="css/img/paper-96.png" class="waste" draggable="true" id="newspaper">
+                        <img src="css/img/Bootle-96.png" class="waste" draggable="true" id="bottle">
+                        <img src="css/img/Glass-smal.png" class="waste" draggable="true" id="jar">
+                        <img src="css/img/Glass-smal.png" class="waste" draggable="true" id="jar2">
+                        <img src="css/img/iron_bank-96.png" class="waste" draggable="true" id="Konserwy">
+                        <img src="css/img/bio_Apple_96.png" class="waste" draggable="true" id="Jablko1">
+                        <img src="css/img/bio_Apple_96.png" class="waste" draggable="true" id="Jablko2">
+                    </div>
+                </div>               
+            <div id="result" class="text-in-block"></div>
+        </div>
+    </section>
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>

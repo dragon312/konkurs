@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekologiczne Typy Transportu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        @keyframes fall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            100% { transform: translateY(360vh) rotate(360deg); opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="leaf" style="left: 1%; animation-delay: 0s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 1,5%; animation-delay: 1s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 2%; animation-delay: 2s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 3%; animation-delay: 3s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 4%; animation-delay: 4s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 96%; animation-delay: 5s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 95%; animation-delay: 6s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 97%; animation-delay: 7s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 96%; animation-delay: 8s;"><img src="css/img/leaf.png"></div>
+        <div class="leaf" style="left: 97%; animation-delay: 9s;"><img src="css/img/leaf.png"></div>
+
+    <header>
+        <div class=logo-header>
+            <img src=css/img/logo-small.png alt=Logo>
+        </div>
+        
+        <div class=text-header>
+            <a class="Site-topics-text-header">Ekologiczne Typy Transportu</a>
+        </div>
+    </header> 
+
+    <div class="Left-Menu">
+        <a href=index.html class=urls > Nasze Otoczenie </a> <br>
+        <a href=eco-energy.html class=urls > Oszczędzanie energii </a> <br>
+        <a href=oxygen-monitor.html class=urls > Jakość powietrza </a> <br>
+        <a href=recycling-musor.html class=urls > Recykling Odpadów </a> <br>
+        <a href='#' class=urls style="color:rgb(226, 223, 43)"> <b>[Ekologiczne Typy Transportu]</b> </a> <br>
+        <a href=eco-system-nature.html class=urls > Różnorodność Flory i Fauny </a> <br>
+    </div>
+
+
+    <img class="Arrow-up" id="arrow_up" src="css/img/Arrow_up.png" alt="Scroll to top">
+    <section class="block block0">
+        <a class="block0-text-Header-thema">Ekologiczne Typy Transportu</a>
+    </section>
+
+    <section class="block block1">
+        <a class="text-thema-in-block">Co to jest ekologiczny transport?</a><br>
+        <a class="text-in-block">Ekologiczne typy transportu to środki, które minimalizują wpływ na środowisko. Ich celem jest zmniejszenie emisji zanieczyszczeń, zużycia energii i poziomu hałasu, a także wspieranie zrównoważonego rozwoju. Ekologiczny transport pomaga chronić zarówno środowisko, jak i nasze zdrowie.</a>
+    </section>
+
+    <section class="block block2">
+        <a class="text-thema-in-block">Rodzaje ekologicznego transportu</a><br>
+        <p class="text-in-block2">Do najważniejszych ekologicznych typów transportu należą:</p>
+        <div class="box">
+            <ul>
+                <li class="text-in-punktor">Rowery i pieszy ruch – zero emisji, korzystnie wpływają na zdrowie użytkowników.</li>
+                <li class="text-in-punktor">Pojazdy elektryczne – nie emitują spalin i mogą być zasilane energią z odnawialnych źródeł.</li>
+                <li class="text-in-punktor">Transport publiczny (autobusy, tramwaje, pociągi) – efektywne wykorzystanie energii i mniejsze zanieczyszczenie.</li>
+                <li class="text-in-punktor">Transport wodny – ekologiczne alternatywy, jak elektryczne łodzie, również przyczyniają się do redukcji emisji.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="block block3">
+        <a class="text-thema-in-block">Dlaczego warto wybierać ekologiczne środki transportu?</a><br>
+        <p class="text-in-block2">Korzystanie z ekologicznych środków transportu:</p>
+        <div class="box">
+            <ul>
+                <li class="text-in-punktor">Zmniejsza zanieczyszczenie powietrza – lepsza jakość powietrza wpływa na zdrowie i samopoczucie.</li>
+                <li class="text-in-punktor">Obniża emisję gazów cieplarnianych – kluczowy element w walce ze zmianami klimatycznymi.</li>
+                <li class="text-in-punktor">Oszczędza zasoby paliw kopalnych – pomaga chronić naturalne zasoby Ziemi.</li>
+                <li class="text-in-punktor">Poprawia jakość życia – zmniejsza hałas i zatłoczenie w miastach, a często też redukuje koszty.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="block block4">
+        <div class="container">
+            <h1 class="graf-text">Statystyka emisji spalin samochodowych w regionach Polski</h1>
+            <canvas id="emissionChart" width="400" height="200"></canvas>
+          </div>
+    </section>
+
+    <section class="block block5">
+        <a class="text-in-block">Wybór ekologicznego transportu przynosi korzyści dla środowiska, zdrowia i przyszłości naszej planety. Przejście na bardziej przyjazne środowisku środki transportu pomaga ograniczyć zanieczyszczenie powietrza i wspiera zrównoważony rozwój, co ma znaczenie dla nas wszystkich.</a>
+    </section>
+</div> 
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+</html>
